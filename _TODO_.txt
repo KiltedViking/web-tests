@@ -1,0 +1,10 @@
+********************************************************************************
+*** TODO
+********************************************************************************
+
+2020-04-19:
+-----------
+* Go through all folders and files and check for any content to add to .gitignore.
+* Then commit and push to Github (or other Git service ;-)).
+* Create examples for CSS Flexbox.
+* Go through navigation of content.

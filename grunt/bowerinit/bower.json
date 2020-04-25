@@ -1,0 +1,24 @@
+{
+  "name": "bowerinit",
+  "version": "0.1.0",
+  "authors": [
+    "kiltedviking <bjorn@kiltedviking.net>"
+  ],
+  "description": "A test to see how bower init works.",
+  "main": "index.html",
+  "keywords": [
+    "test",
+    "initialise",
+    "web",
+    "project"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.kiltedviking.net/bowerinit",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

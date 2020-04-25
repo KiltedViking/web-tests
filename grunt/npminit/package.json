@@ -1,0 +1,21 @@
+{
+  "name": "npminit",
+  "version": "0.1.0",
+  "description": "First try at using NPM to initialise a web project.",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiltedviking/test/npminit.git"
+  },
+  "keywords": [
+    "test",
+    "initialise",
+    "web",
+    "project"
+  ],
+  "author": "Björn G.D. Persson <bjorn(at)kiltedviking.net.nospam> (at)",
+  "license": "ISC"
+}

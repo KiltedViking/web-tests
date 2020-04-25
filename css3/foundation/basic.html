@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Basic template - A first example with Foundation</title>
+
+  	<!-- Foundation -->
+		<link rel="stylesheet" href="../../css/foundation/normalize.css">
+    <link rel="stylesheet" href="../../css/foundation/foundation.css">
+
+		<!-- This is how you would link your custom stylesheet -->
+		<!-- link rel="stylesheet" href="../css/foundation_app.css" -->
+    <link rel="stylesheet" href="../../css/bjorn-foundation5.css">
+		
+		<style>
+			/*.row {
+				color: black;
+				background-color: white;
+				padding: 0 20px;
+				border-radius: 20px;
+			}*/
+		</style>
+
+		<script src="../../js/foundation/vendor/modernizr.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="small-12 column page">
+				<header>
+					<h1>Basic Foundation example <small>A kitchen sink example</small></h1>
+				</header>
+
+				<p>This page was created using example page bundled with download of Foundation, version 5, 
+						and has been redone using &quot;Kilted Viking colours and design&quot;.
+						Page is a &quot;rewrite&quot; of <a href="../bootstrap/basic.html">Bootstrap
+						page</a>, i.e. uses the same structure, and contains examples of</p>
+
+				<ul>
+						<li>using rows and columns (mainly 12 columns for full width)</li>
+						<li>examples of some components
+
+						<ul>
+								<li><a href="#glyphicons">Glyphicons</a>
+										<!-- <ul>
+												<li><a href="#glyphiconsbuttons">Buttons</a></li>
+										</ul> -->
+								</li>
+								<li><a href="#buttons">Buttons</a></li>
+								<li><a href="#navs">Navs</a></li>
+								<li><a href="#navbars">Navbars</a></li>
+								<li><a href="#paginations">Paginations</a></li>
+								<li><a href="#labels">Labels</a></li>
+								<li><a href="#badges">Badges</a></li>
+								<li><a href="#pageheaders">Page headers</a></li>
+								<li><a href="#alerts">Alerts</a></li>
+								<li><a href="#panels">Panels</a></li>
+								<li><a href="#tabs">Tabs</a></li>
+						</ul>
+						</li>
+				</ul>
+
+				<hr>
+				<h2 id="glyphicons">Glyphicons</h2>
+				<p>(Icons in Foundation seems to be an addon...)</p>
+				<!-- <p><span class="glyphicon glyphicon-file"></span> File icon (class: glyphicon glyphicon-file)</p>
+				<p><span class="glyphicon glyphicon-home"></span> Home icon (class: glyphicon glyphicon-home)</p>
+
+				<h3 id="glyphiconsbuttons">Buttons with glyphicons</h3>
+				<p>Examples of buttons with icons and/or text.</p>
+				<p><button type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-file"></span> Button with file icon
+				</button></p> -->
+
+				<hr>
+				<h2 id="buttons">Buttons</h2>
+
+				<p>
+					<button class="button">Default button</button>
+					<a href="#" class="button primary">Primary button (link)</a>
+					<a href="#" class="button secondary">Secondary button (link)</a>
+					<button class="button alert round">Round alert button</button>
+					<button class="button success radius">Success button with radius</button>
+					<button class="button warning">Warning button</button>
+					<button class="button info expand">Expanded info button</button>
+				</p>
+
+				<hr>
+				<h2 id="navs">Navs</h2>
+
+				<h3>Side navs</h3>
+				<p>Side navs are vertical menus.</p>
+
+				<ul class="side-nav">
+					<li class="active"><a href="">Item1</a></li>
+					<li><a href="">Item2</a></li>
+					<li><a href="">Item3</a></li>
+					<li><a href="">Item4</a></li>
+				</ul>
+
+				<h3>Sub navs</h3>
+				<p>Sub navs are horisontal menus and can include a header/title.</p>
+				<dl class="sub-nav">
+					<dt>Title:</dt>
+					<dd class="active"><a href="#">Item1</a></dd>
+					<dd><a href="#">Item2</a></dd>
+					<dd><a href="#">Item3</a></dd>
+					<dd><a href="#">Item4</a></dd>
+				</dl>
+
+				<hr>
+				<h2 id="navbars">Navbars</h2>
+				<p>(Navbars rely on H1 headers, i.e. not a good idea to redefine those...)</p>
+
+				<nav class="top-bar" data-topbar>
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="#">Menu title</a></h1>
+						</li>
+						<li class="toggle-topbar menu-icon">
+							<a href="#">Menu</a>
+						</li>
+					</ul>
+					<section class="top-bar-section">
+						<ul>
+							<li><a href="#">Item1</a></li>
+							<li><a href="#">Item2</a></li>
+							<li><a href="#">Item3</a></li>
+						</ul>
+					</section>
+				</nav>
+
+				<hr>
+				<h2 id="paginations">Paginations</h2>
+
+				<ul class="pagination">
+					<li class="arrow unavailable"><a href="#">&lt;</li>
+					<li class="current"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li class="unavailable"><a href="#">...</a></li>
+					<li><a href="#">11</a></li>
+					<li><a href="#">12</a></li>
+					<li class="arrow"><a href="#">&gt;</a></li>
+				</ul>
+
+				<hr>
+				<h2 id="labels">Labels</h2>
+				<p>Labels are colourful splotches with text in them.
+					<span class="label">Default example</span>
+					<span class="label secondary">Secondary example</span>
+					<span class="label alert">Alert example</span>
+					<span class="label warning">Warning example</span>
+					<span class="label success">Success example</span>
+					<span class="label info">Info example</span></p>
+
+				<h3>Variations on labels (and other components)</h3>
+				<p>Example of more labels. <span class="label round">Round label</span>
+					and <span class="label radius">Radius label</span></p>
+
+				<hr>
+				<h2 id="badges">Badges</h2>
+				<p>Badges aren't a feature in Foundation... or am I wrong? They can be created
+					using a rounded badge (with few characters in).
+				</p>
+
+				<hr>
+				<h2 id="pageheaders">Page headers <small>with smaller subtext</small></h2>
+				<h2 class="subheader">A subheader with same level as heading above</h2>
+				<p>This page uses a page header with a &quot;subtext&quot; (small element).</p>
+
+				<hr>
+				<h2 id="alerts">Alerts</h2>
+				<p>Alerts are boxes with text in them. They may be "default", secondary, alert, warning,
+					success, and info.
+					Examples below also use grid for desktops (class: large-2 columns) that will stack when
+					windows width reaches a certain smaller size.</p>
+
+				<div class="row">
+					<div class="small-12 medium-4 large-2 columns alert-box">This is a (default) alert.</div>
+					<div class="small-12 medium-4 large-2 columns alert-box secondary">This is a secondary alert.</div>
+					<div class="small-12 medium-4 large-2 columns alert-box alert round">This is a alert alert with round corners.</div>
+					<div class="small-12 medium-4 large-2 columns alert-box warning radius">This is a warning alert with radius.</div>
+					<div class="small-12 medium-4 large-2 columns alert-box success">This is a success alert.</div>
+					<div class="small-12 medium-4 large-2 columns alert-box info">This is an info alert.</div>
+				</div>
+
+				<hr>
+				<h2 id="panels">Panels</h2>
+				<p>Panels are boxes that stand out. They may be "default" and callout.
+					Examples below also use grid for desktops (class: large-6 columns) that will stack when
+					windows width reaches a certain smaller size.</p>
+
+				<div class="row">
+					<div class="large-4 columns">
+						<div class="panel">
+							<h5>This is a (default) panel.</h5>
+							<p>... with some text.</p>
+						</div>
+					</div>
+					<div class="large-4 columns">
+						<div class="panel callout">
+							<h5>This is a callout panel.</h5>
+							<p>... with some text and a table.</p>
+						</div>
+					</div>
+					<div class="large-4 columns">
+						<div class="panel callout radius">
+							<h5>This is a callout radius panel.</h5>
+							<p>... with some text and a table.</p>
+						</div>
+					</div>
+				</div>
+
+				<hr>
+				<h2 id="tabs">Tabs</h2>
+				<p>Tabs are useful for displaying only &quot;active&quot; content.</p>
+
+				<ul class="tabs" data-tab>
+					<li class="tab-title"><a href="#panel1">Tab 1</a></li>
+					<li class="tab-title"><a href="#panel2">Tab 2</a></li>
+					<li class="tab-title"><a href="#panel3">Tab 3</a></li>
+				</ul>
+				<div class="tabs-content">
+					<div class="content active" id="panel1">
+						<p>Panel 1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+							eum iusto quis itaque, earum placeat vel cum quaerat. Provident saepe
+							doloremque quaerat odit. Incidunt minus voluptas nulla doloribus ipsa, iste.</p>
+					</div>
+					<div class="content" id="panel2">
+						<p>Panel 2: Voluptate distinctio aut mollitia ratione. Quis atque, porro
+							a, ducimus inventore optio vero modi commodi dolorum repellat vitae, in
+							obcaecati necessitatibus pariatur error tenetur qui iure! Asperiores tempora iusto assumenda.</p>
+					</div>
+					<div class="content" id="panel3">
+						<p>Panel 3: Commodi qui, sint quae? Sapiente tempora minima, ipsa tempore
+							deserunt pariatur ipsum eligendi nemo possimus maiores odit dolore suscipit
+							deleniti dicta, soluta dignissimos eaque, enim corrupti. Ducimus debitis illum ut.</p>
+					</div>
+				</div>
+
+				<footer class="row">
+					<div class="small-12 column">
+					<p><a href="./">Back</a> to Foundation</p>
+					<p><b>Created by:</b> Bj&ouml;rn G. D. Persson. <b>Updated:</b> 2017-06-10.</p>
+					</div>
+				</footer>
+				</div>
+		</div>
+		<script src="../../js/foundation/vendor/jquery.js"></script>
+		<script src="../../js/foundation/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+/*.zip
+
+#Ignore files with sensetive  content (see files with _EXAMPLE in for examples of these files)
+db_kiltedviking.php
+/apis/maps/first-load.js
+/apis/maps/geojson-load.js
+/apis/maps/multiple-places-load.js
+/xml/php/db.php
+
+#Ignore folders with other's work ;-)
+/bilder
+/css/*/*
+/css/fonts
+/css/foundation-icons
+/hottowel
+/javascript/backbone
+/javascript/ember
+/javascript/react
+/kiltedviking
+/webapps
+
+#Ignore files with other's work ;-)
+/fonts/*.eot
+/fonts/*.otf
+/fonts/*.svg
+/fonts/*.ttf
+/fonts/*.woff
+/fonts/*.woff2
+/images/gradient.jpg
+/javascript/*.zip
+/js/*.zip
+/js/*
+
+#Ignore operating system files
+.DS_Store
