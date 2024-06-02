@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+	<link rel="stylesheet" href="../../css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="../../bjorn.css" type="text/css">
+	<link rel="stylesheet" href="responsive-styles.css" type="text/css">
+</head>
+<body>
+    <div class="body-container">
+        <header>
+            <h1>Responsive Web Design</h1>
+            <p>Examples based on things learnt while watching YouTube video 
+                Introduction To Responsive Web Design - HTML &amp; CSS Tutorial by
+                freeCodeCamp.org.
+            </p>
+        </header>
+
+        <section>
+            <h2>Pictures</h2>
+            <p><b>Tip:</b> Set a percentage for picture, but also a max-width.</p>
+
+            <img src="../../images/thistle.jpg" class="body-image" alt="A thistle flower">
+
+        </section>
+
+        <section>
+            <h2>Units</h2>
+            <h3><code>em</code> vs. <code>rem</code></h3>
+            <p>Use <code>rem</code> for text sizes to avoid cascading problem, i.e.
+                all text sizes will be relative to <code>html</code> tag's size.
+            </p>
+            <p>Use <code>em</code> for margin and padding.</p>
+            <p>Use <code>em</code> or percentage for width.</p>
+
+            <p><code>em</code> for margins, etc. are relative to size of &quot;this&quot;
+                element -  not parent element! This is useful when using <code>em</code>
+                for margins, etc. as they also scale.
+            </p>
+
+            <h3>Pixels</h3>
+            <p>Pixels are now defined by reference pixel, 1/96 inch, to avoid problems with large resolution
+                screens.
+            </p>
+        </section>
+
+        <section>
+            <h2>Grids</h2>
+            <p>Using <code>display: flex</code> starts displaying child elements
+                in columns instead of rows.
+            </p>
+
+            <ul class="ul-flex-space-evenly">
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li>
+            </ul>
+
+            <h3><code>justify-content</code> vs. <code>align-items</code></h3>
+            <p>Use <code>justify-content</code> to spread content to whole width
+                of container (&quot;row&quot;) by adding space between or around
+                elements (&quot;columns&quot;).
+            </p>
+            <p>Use <code>align-items</code> to specify how to spread content vertically
+                - default is stretching to same height as parent. A useful value
+                is <code>align-items: start</code> to not spread to full height.
+            </p>
+        </section>
+
+        <footer>
+            <p><a href="../" class="btn btn-primary btn-xs">Back</a> to CSS3</p>
+            <p><b>Created by:</b> Bj&ouml;rn G. D. Persson. <b>Last updated:</b>
+                2022-08-07.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

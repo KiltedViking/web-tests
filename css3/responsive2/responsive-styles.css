@@ -1,0 +1,20 @@
+.body-container {
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 2em;
+    width: 90%;
+    max-width: 800px;
+}
+.body-image {
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.ul-flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly
+}

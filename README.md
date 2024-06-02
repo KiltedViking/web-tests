@@ -9,7 +9,10 @@ Any files with filenames containing "_EXAMPLE" should have this part of filename
 ## About content in folders
 
 ### Folders `css` and `js` versus `css3` and `javascript`
-Folders `css` and `js` contain, or should contain, any CSS and/or JavaScript libraries used in webpages in this repository, and folder `fonts` contains, or should contain, font files. (As it turns out, I added the folder `js` to `.gitignore` and it has therefore not been uploaded to repository... Will look into fixing in future!)
+Folders `css` and `js` contain, or should contain, any CSS and/or JavaScript libraries used in webpages in this repository, and folder `fonts` contains, or should contain, font files. The libraries and frameworks have been added to `.gitignore` as they really aren't part of this project - read more below on which the libraries are and where they should be placed.
+
+[CSS libraries and frameworks](./css/README-css.md)
+[JavaScript libraries and frameworks](./js/README-js.md)
 
 Folder `css3` contains CSS tests and folder `javascript` contains JavaScript tests.
 

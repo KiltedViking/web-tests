@@ -28,8 +28,17 @@ db_kiltedviking.php
 /fonts/*.woff2
 /images/gradient.jpg
 /javascript/*.zip
+/js/*/*
 /js/*.zip
-/js/*
+/js/backbone.js
+/js/ember*.js
+/js/handlebars*.js
+/js/jquery*.js
+/js/jquery*.map
+/js/materialize*.js
+/js/moment*.js
+/js/npm.js
+/js/underscore.js
 
 #Ignore operating system files
 .DS_Store
