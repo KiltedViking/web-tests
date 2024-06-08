@@ -6,7 +6,7 @@ For some pages in this website to display and/or work as intended, they require 
 
 ## JavaScript libraries (or frameworks), versions and folders
 
-Below are JavaScript libraries, version installed and folder that distribution files (`dist`) are placed (`./` refers to folder `css` in root of website, i.e. `/css`). Libraries should be able to be upgraded to the latest version of same major version (e.g. 3.x --> 3.y), but newer major versions have tended to contain breaking changes. (Libraries in parenthesis, like Bootstrap, are JS files for CSS libraries.)
+Below are JavaScript libraries, version used and folder that distribution files (`dist`) are placed (`./` refers to folder `css` in root of website, i.e. `/css` - same folder as this file is located in). Libraries should be able to be upgraded to the latest version of same major version (e.g. 3.x --> 3.y), but newer major versions have tended to contain breaking changes. (Libraries in parenthesis, like Bootstrap, are JS files for CSS libraries.)
 
 * Angular v. 1.4.8 - `./angular-1.4.8`
 * Angular v. 1.5.8 - `./angular-1.5.8`
@@ -37,5 +37,11 @@ Below are JavaScript libraries, version installed and folder that distribution f
 * Underscore v. 1.8.3 - `./`
 * YUI v. 3.9.1 - `./yui`
 
+---
 
+[<<Back](../README.md)
 
+---
+
+Björn G. D. Persson,
+"Kilted Viking", 2024-06-08

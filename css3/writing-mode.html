@@ -6,10 +6,21 @@
   <title>writing-mode</title>
   <style>
     h1 { writing-mode: sideways-lr; }
+    h2 { writing-mode: vertical-lr;}
   </style>
 </head>
 <body>
   <h1>CSS property writing-mode</h1>
   <p>Heading above should be output -90 degrees, i.e. from bottom up on the left.</p>
+  
+  <h2>Another header</h2>
+  <p>This page seems to have been created using non-standardised property (<code>writing-mode</code>) as value for
+    first heading (<code>sideways-lr</code>) doesn't transform, but adding second heading with another value
+    for property (<code>writing-mode</code> with value <code>vertical-lr</code>) works.
+  </p>
+  <footer style="text-align: center; border-top: solid 1px;">
+    <p><a href="./">Back</a> to CSS3</p>
+    <p><b>Created by:</b> Bj&ouml;rn G. D. Persson. <b>Updated:</b> 2024-06-08.</p>
+  </footer>
 </body>
 </html>

@@ -30,3 +30,12 @@ Font files, for Font Awsome (two versions) and Foundation Icons, are placed in `
 * FontAwesome (.otf) - `./`
 * glyphicons-haflings-regular (.eot, .svg, .ttf, .woff, .woff2) - `./`
 * foundation-icons (.eot, .svg, .ttf, .woff) - `./foundation-icons`
+
+---
+
+[<<Back](../README.md)
+
+---
+
+Björn G. D. Persson,
+"Kilted Viking", 2024-06-08
