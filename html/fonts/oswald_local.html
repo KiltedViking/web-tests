@@ -2,24 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Test of font Oswald loaded with @font-face in CSS and from local disk.">
   <title>Oswald - Font</title>
   <!--<link href='https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>-->
   <style>
-    @font-face {
+    /* @import url("../../css/fonts/Oswald/Oswald-Regular.ttf");
+    @import url("../../css/fonts/Oswald/Oswald-Bold.ttf"); */
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    /* @font-face {
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 200 700;
+      font-display: swap;
+      src: url("../../css/fonts/Oswald/Oswald-Regular.ttf") format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    } */
+
+    /* @font-face {
       font-family: 'Oswald';
       font-style: normal;
       font-weight: 400;
-      src: local('Oswald Regular'), local('Oswald-Regular'), url(../../css/fonts/Oswald/Oswald-Regular.ttf) format('ttf');
+      src: local('Oswald Regular'), 
+           local('Oswald-Regular'), 
+           url(../../css/fonts/Oswald/Oswald-Regular.ttf) format('ttf');
     }
     @font-face {
       font-family: 'Oswald';
       font-style: normal;
       font-weight: 700;
-      src: local('Oswald Bold'), local('Oswald-Bold'), url(../../css/fonts/Oswald/Oswald-Bold.ttf) format('ttf');
-    }
+      src: local('Oswald Bold'), 
+           local('Oswald-Bold'), 
+           url(../../css/fonts/Oswald/Oswald-Bold.ttf) format('ttf');
+    } */
+
     body {
-      font-family: Oswald, sans-serif;
+      font-family: "Oswald", "Times New Roman", sans-serif;
       font-size: 1.2em;
+      font-weight: 400;
+      font-style: normal;
     }
     .container {
       width: 800px;
@@ -35,16 +57,18 @@
 </head>
 <body>
   <div class="container">
-    <h1>Test of Google font Oswald loaded from same server...</h1>
-    <p>... which I didn't get to work. ;-(</p>
+    <h1>Test of Google font Oswald loaded locally</h1>
+    <p>... which I didn't get to work. ;-( So I used <code>@import</code> and loaded
+      from Google.
+    </p>
     
     <p>This page uses the font-families:</p>
     <ul>
-      <li>Oswald (set using body tag)</li>
+      <li>Oswald (set using body tag and loaded with <code>@font-face</code> property)</li>
       <li>Georgia</li>
       <li>Verdana</li>
     </ul>
-    <p><a href="./"><< Back to Fonts</a></p>
+    <p><a href="./">&lt;&lt; Back to Fonts</a></p>
 
     <h3>Font comparison</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores odio modi, excepturi velit tempora, doloremque necessitatibus, sint similique molestias sed, voluptas. Ducimus iusto, sunt molestiae sed, dolore cum. Modi, ducimus!
@@ -79,7 +103,7 @@
     <p>Quae quo consectetur, officia hic ducimus animi, a nesciunt laboriosam necessitatibus suscipit nihil vero similique repellat recusandae saepe. Reiciendis rerum assumenda possimus doloremque laborum temporibus reprehenderit perferendis, odit iusto, at.</p>
     <p>Ab ad facere incidunt doloremque perferendis optio ipsam quaerat atque velit quasi impedit, voluptatem dicta nesciunt eos minus! Amet asperiores eligendi sed. Quaerat totam optio saepe reiciendis sequi dolor non!</p>
     <p>Esse, quasi id nostrum, eius laudantium blanditiis modi minima ullam commodi, molestiae saepe accusantium. Sit laborum, vitae nesciunt earum, dicta minima, voluptas ducimus odit blanditiis reprehenderit molestiae distinctio inventore quis.</p>
-    <p><a href="./"><< Back to Fonts</a></p>
+    <p><a href="./">&lt;&lt; Back to Fonts</a></p>
   </div>
 </body>
 </html>

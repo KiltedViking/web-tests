@@ -1,4 +1,4 @@
-@import url('yui/reset.css');
+/* @import url('yui/reset.css'); */
 /* HTML entities *************************************************************/
 html {
 	color: black;
@@ -16,18 +16,18 @@ h1, h2, h3 {
 h1 {
 	color: white;
 	background-color: #800000;
-	font-size: 2em;
+	/* font-size: 2em; */
 	margin-top: -5px;
 	border-radius: 10px;
 	padding: 10px;
 	text-align: center;
 }
-h2 {
+/* h2 {
 	font-size: 1.8em;
 }
 h3 {
 	font-size: 1.2em;
-}
+} */
 p {
 	margin: .5em 0;
 }
@@ -36,12 +36,12 @@ ul, ol {
 }
 li {
 	list-style: circle;
-	margin-left: 15px;
+	/* margin-left: 15px; */
 }
 footer {
 	clear: both;
 	border-top: solid 1px gray;
-	font-size: .8em;
+	/* font-size: .8rem; */
 	text-align: center;
 }
 /* IDs *************************************************************/

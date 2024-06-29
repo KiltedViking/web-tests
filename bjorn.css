@@ -1,4 +1,4 @@
-@import url('css/yui/reset.css');
+/* @import url('css/yui/reset.css'); */
 /* HTML entities *************************************************************/
 html {
 	color: black;
@@ -6,6 +6,7 @@ html {
 }
 body {
 	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 16px;
 	color: black;
 	background-color: #800000;
 }
@@ -22,21 +23,22 @@ h1 {
 	padding: 10px;
 	text-align: center;
 }
-h2 {
+/* h2 {
 	font-size: 1.8em;
 }
 h3 {
 	font-size: 1.2em;
-}
-p {
+} */
+/* p {
 	margin: .5em 0;
-}
-ul, ol {
+} */
+/* ul, ol {
 	margin: .5em 0;
-}
+} */
 li {
 	list-style: circle;
-	margin-left: 15px;
+	/* margin-left: 15px; */
+	padding-bottom: .5rem;
 }
 footer {
 	clear: both;

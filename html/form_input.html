@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form:input - HTML</title>
   <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="../bjorn.css">
+  <link rel="stylesheet" href="../css/bjorn.css">
   <style>
     .label300 { width: 300px; }
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>Form: input - HTML</h1>
-    </header>
+    <header class="row">
+      <div class="col-sm-12">
+        <h1>Form: input - HTML</h1>
 
-    <p>Test of new types for tag <code>input</code>. Browsers seems to have
-      implemented support for them differently... i.e. a date input might be shown
-      as an ordinary textbox or as a 'drop-down selector'.</p>
+        <p>Test of new types for tag <code>input</code>. Browsers seems to have
+          implemented support for them differently... i.e. a date input might be shown
+          as an ordinary textbox or as a 'drop-down selector'.</p>
+      </div>
+    </header>
 
     <div class="row">
       <div class="col-md-5 col-sm-5">
@@ -52,10 +54,10 @@
           <li><code>step</code> - granularity when stepping up/down</li>
           <li><code>list</code> - ID of list to use as options (use with tag datalist)</li>
           <li><code>placeholder</code> - an example value to show if no value entered</li>
-          <li><code></code></li>
         </ul>
       </div>
     </div>
+
     <form action="#">
       <div class="panel panel-primary">
         <div class="panel-heading">
@@ -156,42 +158,33 @@
         </div>
       </div>
 
-      <h3>New attributes</h3>
+      <h2>New attributes</h2>
 
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3>Miscellaneous</h3>
         </div>
         <div class="panel-body">
-          <p>Testing new attributes for input of type text.</p>
+          <h4>Type <code>text</code></h4>
           <div>
-            <label for="attr1" class="label300">Some text with min and max length:</label>
+            <label for="attr1" class="label300">Text with min and max length:</label>
             <input type="text" id="attr1" minlength="2" maxlength="10" />
           </div>
 
           <div>
-            <label for="attr2" class="label300">Some read-only text:</label>
+            <label for="attr2" class="label300">Read-only text:</label>
             <input type="text" id="attr2" readonly value="Should not change" >
           </div>
 
           <div>
-            <label for="attr3" class="label300">Some required value:</label>
-            <input type="text" id="attr3" required >
+            <label for="attr3" class="label300">Required value:</label>
+            <input type="text" id="attr3" required>
+            <span class="help-block">(Send form to test reuqired value)</span>
           </div>
 
           <div>
             <label for="attr4" class="label300">Multiple values:</label>
-            <input type="text" id="attr4" multiple >
-          </div>
-
-          <div>
-            <label for="attr5" class="label300">Some value with min and max values:</label>
-            <input type="number" id="attr5" min="0" max="100" >
-          </div>
-
-          <div>
-            <label for="attr6" class="label300">Values by steps:</label>
-            <input type="number" id="attr6" step="4" >
+            <input type="text" id="attr4" multiple>
           </div>
 
           <div>
@@ -203,9 +196,33 @@
             </datalist>
           </div>
 
+          <!-- <div>
+            <label for="attr7b" class="label300">List of values:</label>
+            <input type="text" id="attr7b" list="attr7blist" multiple>
+            <datalist id="attr7blist">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+              <option value="5">Five</option>
+            </datalist>
+          </div> -->
+
           <div>
             <label for="attr8" class="label300">Placeholder:</label>
-            <input type="text" id="attr8" placeholder="bjorn@kiltedviking.net" >
+            <input type="text" id="attr8" placeholder="bjorn@example.com" >
+          </div>
+
+          <h4>Type <code>number</code></h4>
+  
+          <div>
+            <label for="attr5" class="label300">Value with min and max values:</label>
+            <input type="number" id="attr5" min="0" max="100" >
+          </div>
+  
+          <div>
+            <label for="attr6" class="label300">Values by steps:</label>
+            <input type="number" id="attr6" step="4" >
           </div>
         </div>
       </div>

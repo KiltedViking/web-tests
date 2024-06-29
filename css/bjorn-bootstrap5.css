@@ -1,0 +1,22 @@
+/* Make customisations to Bootstrap */
+:root{--bs-primary: #800000;}
+
+h1, h2, h3 {
+	font-family: Verdana, Lucida, sans-serif;
+	font-weight: bold;
+}
+
+
+.page-header {
+    color: white;
+    background-color: var(--bs-primary);
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	border-top: solid 1px gray;
+	font-size: .8rem;
+	text-align: center;
+}
